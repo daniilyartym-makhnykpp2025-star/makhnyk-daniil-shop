@@ -1,1 +1,0 @@
-# makhnyk-daniil-shop
