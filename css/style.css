@@ -1,0 +1,20 @@
+/* Custom CSS extensions for Lab 6 (MAKHNYK DANIIL) */
+
+/* Global focus visibility for accessibility (WCAG 2.2 AA) */
+:focus-visible {
+  outline: 2px solid #A07A58 !important;
+  outline-offset: 3px !important;
+}
+
+/* Screen reader utility override */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
